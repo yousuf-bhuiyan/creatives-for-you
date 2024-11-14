@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.list{
+        @apply text-xs md:text-sm}
+
+    .it{
+        @apply flex items-center gap-2 md:gap-4 pt-2 md:pt-4
+    }
